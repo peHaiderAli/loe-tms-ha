@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $admin = User::updateOrCreate(
-            ['email' => 'admin@loeatlas.test'],
+            ['email' => 'admin@pixeledge.io'],
             [
                 'name' => 'LoE Admin',
                 'role' => 'admin',
@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
         );
 
         $workspaceUser = User::updateOrCreate(
-            ['email' => 'asad@loeatlas.test'],
+            ['email' => 'asad@pixeledge.io'],
             [
                 'name' => 'Muhammad Asad',
                 'role' => 'employee',
@@ -39,7 +39,7 @@ class DatabaseSeeder extends Seeder
         );
 
         User::updateOrCreate(
-            ['email' => 'edwin@loeatlas.test'],
+            ['email' => 'edwin@pixeledge.io'],
             [
                 'name' => 'Edwin Reviewer',
                 'role' => 'reviewer',
@@ -79,7 +79,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Muhammad Asad',
                 'preferred_name' => 'Asad',
-                'email' => 'asad@loeatlas.test',
+                'email' => 'asad@pixeledge.io',
                 'stream' => 'Engineering',
                 'skills' => 'Backend',
                 'title' => 'Software Engineer',
@@ -93,7 +93,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Saleem Muhammad',
                 'preferred_name' => 'Saleem',
-                'email' => 'saleem@loeatlas.test',
+                'email' => 'saleem@pixeledge.io',
                 'stream' => 'Engineering',
                 'skills' => 'Backend',
                 'title' => 'Senior Software Engineer',
@@ -106,7 +106,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Muhammad Osama',
                 'preferred_name' => 'Osama',
-                'email' => 'osama@loeatlas.test',
+                'email' => 'osama@pixeledge.io',
                 'stream' => 'Engineering',
                 'skills' => 'Backend',
                 'title' => 'Staff Software Engineer',
@@ -119,7 +119,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Ali Jawed',
                 'preferred_name' => 'Ali',
-                'email' => 'ali.jawed@loeatlas.test',
+                'email' => 'ali.jawed@pixeledge.io',
                 'stream' => 'Engineering',
                 'skills' => 'Backend',
                 'title' => 'Staff Software Engineer',
@@ -132,7 +132,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Aisha Farouq',
                 'preferred_name' => 'Aisha',
-                'email' => 'aisha@loeatlas.test',
+                'email' => 'aisha@pixeledge.io',
                 'stream' => 'Experience',
                 'skills' => 'Research & QA',
                 'title' => 'Staff Experience Analyst',
@@ -145,7 +145,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Damaris Onyango',
                 'preferred_name' => 'Damaris',
-                'email' => 'damaris@loeatlas.test',
+                'email' => 'damaris@pixeledge.io',
                 'stream' => 'Experience',
                 'skills' => 'Research & QA',
                 'title' => 'Senior Experience Analyst',
@@ -158,7 +158,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Benjamin Keya',
                 'preferred_name' => 'Benjamin',
-                'email' => 'benjamin@loeatlas.test',
+                'email' => 'benjamin@pixeledge.io',
                 'stream' => 'Experience',
                 'skills' => 'QA Analyst',
                 'title' => 'Senior Experience Analyst',
@@ -171,7 +171,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Mugogo Janet',
                 'preferred_name' => 'Janet',
-                'email' => 'janet@loeatlas.test',
+                'email' => 'janet@pixeledge.io',
                 'stream' => 'Experience',
                 'skills' => 'Research',
                 'title' => 'Staff Experience Analyst',
@@ -184,7 +184,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Tyler Page',
                 'preferred_name' => 'Tyler',
-                'email' => 'tyler@loeatlas.test',
+                'email' => 'tyler@pixeledge.io',
                 'stream' => 'Experience',
                 'skills' => 'Research',
                 'title' => 'Experience Analyst',
@@ -197,7 +197,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Mehak Rehman',
                 'preferred_name' => 'Mehak',
-                'email' => 'mehak@loeatlas.test',
+                'email' => 'mehak@pixeledge.io',
                 'stream' => 'HR/Admin',
                 'skills' => 'Operations',
                 'title' => 'People Operations Specialist',
